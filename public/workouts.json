@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "title": "BARBELL BENCH PRESS",
+    "category": "CHEST, ARMS",
+    "equipment": "Barbell, Bench",
+    "duration": "25 min",
+    "calories": 180,
+    "rating": 4.8,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Lie on the bench with eyes under the bar and feet planted.",
+      "Unrack with locked elbows and lower the bar to mid-chest.",
+      "Press up in a slight arc until elbows lock without bouncing.",
+      "Keep shoulder blades pinched and a natural arch in the back."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "PULL-UP",
+    "category": "BACK, ARMS",
+    "equipment": "Pull-up Bar",
+    "duration": "15 min",
+    "calories": 120,
+    "rating": 4.7,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Grasp the pull-up bar with an overhand grip wider than shoulder-width.",
+      "Pull your body up until your chin clears the bar.",
+      "Pause briefly at the top, then lower yourself with control."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BACK SQUAT",
+    "category": "LEGS, CORE",
+    "equipment": "Barbell, Rack",
+    "duration": "30 min",
+    "calories": 240,
+    "rating": 4.9,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Rest the barbell across your upper back with a firm grip.",
+      "Break at the hips and knees to lower into a deep squat.",
+      "Drive through your heels to return to a standing position."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "OVERHEAD PRESS",
+    "category": "SHOULDERS, ARMS",
+    "equipment": "Barbell",
+    "duration": "20 min",
+    "calories": 150,
+    "rating": 4.6,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Hold the barbell at shoulder height with palms facing forward.",
+      "Press the bar overhead until arms are fully extended.",
+      "Lower the bar back to collarbone level with control."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "DUMBBELL BICEP CURL",
+    "category": "ARMS",
+    "equipment": "Dumbbells",
+    "duration": "12 min",
+    "calories": 80,
+    "rating": 4.3,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Stand tall holding a dumbbell in each hand at arm's length.",
+      "Curl the weights while contracting your biceps.",
+      "Slowly lower the dumbbells back to the starting position."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "DUMBBELL BICEP CURL",
+    "category": "ARMS",
+    "equipment": "Dumbbells",
+    "duration": "12 min",
+    "calories": 80,
+    "rating": 4.3,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Stand tall holding a dumbbell in each hand at arm's length.",
+      "Curl the weights while contracting your biceps.",
+      "Slowly lower the dumbbells back to the starting position."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "HOLLOW-BODY PLANK",
+    "category": "CORE",
+    "equipment": "Bodyweight",
+    "duration": "10 min",
+    "calories": 60,
+    "rating": 4.4,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Place forearms on the floor with elbows aligned under shoulders.",
+      "Engage core and keep legs straight, forming a flat line from head to heels.",
+      "Hold the position firmly without letting hips sag."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "DUMBBELL BICEP CURL",
+    "category": "ARMS",
+    "equipment": "Dumbbells",
+    "duration": "12 min",
+    "calories": 80,
+    "rating": 4.3,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Stand tall holding a dumbbell in each hand at arm's length.",
+      "Curl the weights while contracting your biceps.",
+      "Slowly lower the dumbbells back to the starting position."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "CONVENTIONAL DEADLIFT",
+    "category": "BACK, LEGS",
+    "equipment": "Barbell",
+    "duration": "28 min",
+    "calories": 280,
+    "rating": 4.9,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Stand with feet hip-width apart and mid-foot under the bar.",
+      "Grip the bar, engage lats, and keep back flat.",
+      "Drive through heels to lift the bar until standing erect."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "PUSH-UP",
+    "category": "CHEST, ARMS, CORE",
+    "equipment": "Bodyweight",
+    "duration": "10 min",
+    "calories": 90,
+    "rating": 4.5,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Place hands slightly wider than shoulder-width apart.",
+      "Lower your chest until it nearly touches the floor.",
+      "Push back up to full extension maintaining a rigid body line."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "WALKING LUNGE",
+    "category": "LEGS",
+    "equipment": "Dumbbells (optional)",
+    "duration": "18 min",
+    "calories": 170,
+    "rating": 4.4,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Step forward with one leg and lower hips until both knees bend at 90 degrees.",
+      "Push off back foot to step forward into the next lunge.",
+      "Keep torso upright throughout the movement."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "RUSSIAN TWIST",
+    "category": "CORE",
+    "equipment": "Medicine Ball",
+    "duration": "8 min",
+    "calories": 70,
+    "rating": 4.1,
+    "image": "/hero-boy.png",
+    "instructions": [
+      "Sit on the floor, lean back slightly, and lift feet off the ground.",
+      "Twist your torso from side to side touching the weight to the floor.",
+      "Keep core engaged continuously."
+    ]
+  }
+]
