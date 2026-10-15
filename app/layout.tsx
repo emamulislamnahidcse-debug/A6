@@ -1,3 +1,4 @@
+import React, { Suspense } from "react";
 import type { Metadata } from "next";
 import { Oswald, Inter } from "next/font/google";
 import "./globals.css";
@@ -30,7 +31,9 @@ export default function RootLayout({
     <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
       <body className="bg-[#121212] text-white font-sans antialiased min-h-screen flex flex-col selection:bg-[#ccff00] selection:text-black">
         <PlanProvider>
-          <Navbar />
+          <Suspense fallback={<div className="h-20 bg-[#121212]" />}>
+            <Navbar />
+          </Suspense>
           <main className="flex-grow">{children}</main>
           <Footer />
           <Toaster

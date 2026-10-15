@@ -49,7 +49,7 @@ export default function Navbar() {
           >
             <span>Plan</span>
             <span className="w-5 h-5 bg-black text-[#ccff00] rounded-full flex items-center justify-center text-[10px]">
-              {planWorkouts.length}
+              {planWorkouts ? planWorkouts.length : 0}
             </span>
           </Link>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
           >
             <span>Saved</span>
             <span className="w-5 h-5 bg-neutral-800 text-white rounded-full flex items-center justify-center text-[10px]">
-              {savedWorkouts.length}
+              {savedWorkouts ? savedWorkouts.length : 0}
             </span>
           </Link>
         </div>
