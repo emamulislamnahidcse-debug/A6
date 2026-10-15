@@ -11,9 +11,9 @@ function WorkoutDetailsContent() {
   const id = params?.id;
   const [workout, setWorkout] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [isSaved, setIsSaved] = useState(false);
 
-  const { addToPlan, planWorkouts } = usePlan();
+  // Context থেকে ফাংশনগুলো নিয়ে আসা হলো
+  const { addToPlan, addToSaved, removeFromSaved, planWorkouts, savedWorkouts } = usePlan();
 
   useEffect(() => {
     if (id) {
@@ -51,6 +51,15 @@ function WorkoutDetailsContent() {
   }
 
   const isAddedToPlan = planWorkouts?.some((item: any) => item.id === workout.id);
+  const isSaved = savedWorkouts?.some((item: any) => item.id === workout.id);
+
+  const handleSaveToggle = () => {
+    if (isSaved) {
+      removeFromSaved(workout.id);
+    } else {
+      addToSaved(workout);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[#121212] text-white p-4 md:p-12 font-sans">
@@ -176,7 +185,7 @@ function WorkoutDetailsContent() {
               </button>
 
               <button
-                onClick={() => setIsSaved(!isSaved)}
+                onClick={handleSaveToggle}
                 className={`w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-extrabold text-sm uppercase tracking-wider border transition-all ${
                   isSaved
                     ? 'bg-neutral-800 text-neutral-400 border-neutral-700'
